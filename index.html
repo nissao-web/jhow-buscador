@@ -528,34 +528,8 @@ const PORTAIS = {
 // modelo, cat, ano, km, preco, fipe_estimado→fipe, diff_pct→diff,
 // abaixo_fipe→abaixo, fonte, cidade, foto_url→foto, url, criado_em→horas
 
-const SUPABASE_URL = 'https://hqczwextifessaztyyyk.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhxY3p3ZXh0aWZlc3NhenR5eXlrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE5NjA4NzksImV4cCI6MjA4NzUzNjg3OX0.nf8O2EO7ICm7OjUB5T0xFp4aXkfkLAz76nXQd_YM5gs';
-
-async function buscarAnunciosReais() {
-  try {
-    const ctrl = new AbortController();
-    setTimeout(() => ctrl.abort(), 6000);
-    const r = await fetch(
-      SUPABASE_URL + '/rest/v1/anuncios_motos?order=diff_pct.asc&limit=500',
-      { headers: { 'apikey': SUPABASE_KEY, 'Authorization': 'Bearer ' + SUPABASE_KEY }, signal: ctrl.signal }
-    );
-    if (!r.ok) return null;
-    const data = await r.json();
-    if (!data.length) return null;
-    return data.map(function(a) {
-      return {
-        id: a.id, cat: a.categoria || 'media', modelo: a.modelo,
-        ano: a.ano, km: a.km, preco: a.preco,
-        fipe: a.fipe_estimado, diff: a.diff_pct != null ? a.diff_pct : 0,
-        abaixo: a.abaixo_fipe || false, dentroMargem: a.dentro_margem !== false,
-        fonte: a.fonte || 'MercadoLivre', cidade: a.cidade || 'SP',
-        cor: a.cor || '—',
-        horas: a.criado_em ? Math.round((Date.now() - new Date(a.criado_em)) / 3600000) : 1,
-        foto: a.foto_url || null, url: a.url
-      };
-    });
-  } catch(e) { return null; }
-}
+const SUPABASE_URL = 'COLE_AQUI_SUA_URL_SUPABASE';
+const SUPABASE_KEY = 'COLE_AQUI_SUA_ANON_KEY';
 
 
 // ══════════════════════════════════════════════════════
@@ -896,8 +870,8 @@ async function carregarDados(comOverlay = false) {
     await sleep(400);
   }
 
-  // Tenta Supabase, se falhar usa simulados (nunca trava)
-  allAds = (await buscarAnunciosReais()) || gerarAnuncios();
+  // ── AQUI: trocar gerarAnuncios() por buscarAnunciosReais() quando Supabase estiver pronto ──
+  allAds  = gerarAnuncios();
   pageIdx = 0;
 
   renderAll();
