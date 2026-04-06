@@ -800,12 +800,8 @@ async function carregarDados(comOverlay = false) {
     await sleep(400);
   }
 
-  // Tenta dados reais do Supabase (com retry ate 3x), senao usa simulados
-  let reais = null;
-  for (let tentativa = 0; tentativa < 3 && !reais; tentativa++) {
-    if (tentativa > 0) await sleep(2000);
-    reais = await buscarAnunciosReais();
-  }
+  // Tenta dados reais do Supabase, senao usa simulados
+  let reais = await buscarAnunciosReais();
   allAds = reais || gerarAnuncios();
   pageIdx = 0;
 
