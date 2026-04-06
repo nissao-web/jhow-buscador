@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+<rect width="800" height="450" fill="#f0f4f8"/>
+<!-- sombra chão -->
+<ellipse cx="400" cy="400" rx="280" ry="18" fill="rgba(0,0,0,0.08)"/>
+<!-- roda traseira -->
+<circle cx="220" cy="340" r="90" fill="none" stroke="#1a1a2e" stroke-width="26"/>
+<circle cx="220" cy="340" r="68" fill="none" stroke="#2d2d44" stroke-width="4"/>
+<circle cx="220" cy="340" r="32" fill="#1a1a2e"/>
+<circle cx="220" cy="340" r="22" fill="#e8620a"/>
+<!-- raios traseiros -->
+<line x1="220" y1="272" x2="220" y2="408" stroke="#555" stroke-width="3.5"/>
+<line x1="152" y1="340" x2="288" y2="340" stroke="#555" stroke-width="3.5"/>
+<line x1="172" y1="292" x2="268" y2="388" stroke="#555" stroke-width="3.5"/>
+<line x1="172" y1="388" x2="268" y2="292" stroke="#555" stroke-width="3.5"/>
+<!-- roda dianteira -->
+<circle cx="580" cy="340" r="90" fill="none" stroke="#1a1a2e" stroke-width="26"/>
+<circle cx="580" cy="340" r="68" fill="none" stroke="#2d2d44" stroke-width="4"/>
+<circle cx="580" cy="340" r="32" fill="#1a1a2e"/>
+<circle cx="580" cy="340" r="22" fill="#e8620a"/>
+<!-- raios dianteiros -->
+<line x1="580" y1="272" x2="580" y2="408" stroke="#555" stroke-width="3.5"/>
+<line x1="512" y1="340" x2="648" y2="340" stroke="#555" stroke-width="3.5"/>
+<line x1="532" y1="292" x2="628" y2="388" stroke="#555" stroke-width="3.5"/>
+<line x1="532" y1="388" x2="628" y2="292" stroke="#555" stroke-width="3.5"/>
+<!-- chassi -->
+<path d="M220 340 L280 200 L520 185 L580 280 L580 340" fill="none" stroke="#1a2a6c" stroke-width="10" stroke-linecap="round"/>
+<!-- carroceria inferior -->
+<path d="M240 310 Q280 270 400 260 Q500 255 560 290 L560 340 L240 340 Z" fill="#1a2a6c"/>
+<!-- carroceria principal scooter -->
+<path d="M270 240 Q310 195 400 185 Q490 178 540 210 Q570 230 565 280 L540 300 Q460 310 380 308 Q300 305 265 285 Z" fill="#e8620a"/>
+<!-- highlight carroceria -->
+<path d="M290 230 Q340 205 430 200 Q490 198 530 218 Q520 208 430 195 Q330 192 290 230 Z" fill="rgba(255,255,255,0.25)"/>
+<!-- painel/guidão -->
+<path d="M500 185 Q530 165 560 160 L570 175 Q545 180 520 200 Z" fill="#e8620a"/>
+<rect x="552" y="148" width="70" height="10" rx="5" fill="#333" transform="rotate(-15 587 153)"/>
+<circle cx="555" cy="155" r="8" fill="#222"/>
+<circle cx="618" cy="143" r="8" fill="#222"/>
+<!-- banco -->
+<path d="M310 195 Q395 180 470 192 L465 215 Q390 225 310 218 Z" fill="#111"/>
+<!-- parabrisa -->
+<path d="M480 185 Q510 155 545 150 Q558 170 545 190 Q520 187 480 185 Z" fill="rgba(180,220,255,0.5)" stroke="rgba(150,200,255,0.6)" stroke-width="2"/>
+<!-- piso -->
+<rect x="270" y="295" width="270" height="22" rx="10" fill="#c04e08"/>
+<!-- farol dianteiro -->
+<ellipse cx="562" cy="270" rx="22" ry="16" fill="#fff9c4" stroke="#ccc" stroke-width="2"/>
+<ellipse cx="562" cy="270" rx="14" ry="10" fill="#fffde7"/>
+<!-- espelhos -->
+<rect x="536" y="152" width="16" height="8" rx="3" fill="#555" transform="rotate(-25 544 156)"/>
+<!-- escape -->
+<path d="M235" fill="none"/>
+<path d="M228 340 Q200 345 175 342" stroke="#888" stroke-width="12" fill="none" stroke-linecap="round"/>
+</svg>

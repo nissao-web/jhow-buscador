@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+<rect width="800" height="450" fill="#0a0a14"/>
+<ellipse cx="400" cy="408" rx="280" ry="18" fill="rgba(255,255,255,0.05)"/>
+<!-- roda traseira -->
+<circle cx="192" cy="330" r="94" fill="none" stroke="#0a0a0a" stroke-width="30"/>
+<circle cx="192" cy="330" r="70" fill="none" stroke="#1a1a2e" stroke-width="3"/>
+<circle cx="192" cy="330" r="28" fill="#111"/>
+<circle cx="192" cy="330" r="18" fill="#e8620a"/>
+<line x1="192" y1="258" x2="192" y2="402" stroke="#333" stroke-width="2.5"/>
+<line x1="120" y1="330" x2="264" y2="330" stroke="#333" stroke-width="2.5"/>
+<line x1="141" y1="279" x2="243" y2="381" stroke="#333" stroke-width="2.5"/>
+<line x1="141" y1="381" x2="243" y2="279" stroke="#333" stroke-width="2.5"/>
+<!-- roda dianteira -->
+<circle cx="594" cy="330" r="94" fill="none" stroke="#0a0a0a" stroke-width="30"/>
+<circle cx="594" cy="330" r="70" fill="none" stroke="#1a1a2e" stroke-width="3"/>
+<circle cx="594" cy="330" r="28" fill="#111"/>
+<circle cx="594" cy="330" r="18" fill="#e8620a"/>
+<line x1="594" y1="258" x2="594" y2="402" stroke="#333" stroke-width="2.5"/>
+<line x1="522" y1="330" x2="666" y2="330" stroke="#333" stroke-width="2.5"/>
+<line x1="543" y1="279" x2="645" y2="381" stroke="#333" stroke-width="2.5"/>
+<line x1="543" y1="381" x2="645" y2="279" stroke="#333" stroke-width="2.5"/>
+<!-- chassi esportivo -->
+<path d="M192 330 L268 175 L460 155 L594 222 L594 330" fill="none" stroke="#e8620a" stroke-width="7" stroke-linecap="round"/>
+<!-- carenagem full sport -->
+<path d="M268 175 Q320 148 395 142 Q470 138 520 162 Q558 180 580 220 L582 290 L540 310 Q460 320 380 318 Q300 315 258 298 Q226 282 220 250 Z" fill="#e8620a" opacity="0.92"/>
+<!-- highlight carenagem -->
+<path d="M285 165 Q360 148 440 150 Q490 152 520 168 Q490 150 430 145 Q350 142 285 165 Z" fill="rgba(255,255,255,0.25)"/>
+<!-- bolha esportiva -->
+<path d="M400 142 Q440 112 480 118 Q500 138 482 158 Q448 152 400 148 Z" fill="rgba(180,220,255,0.4)" stroke="rgba(200,230,255,0.5)" stroke-width="1.5"/>
+<!-- motor sport -->
+<rect x="275" y="248" width="155" height="75" rx="10" fill="#1a0a0a"/>
+<rect x="285" y="256" width="135" height="59" rx="6" fill="#2a1010"/>
+<!-- farol duplo sport -->
+<ellipse cx="228" cy="218" rx="18" ry="12" fill="#fff9c4" stroke="#999" stroke-width="1.5"/>
+<ellipse cx="255" cy="213" rx="15" ry="10" fill="#fff9c4" stroke="#999" stroke-width="1.5"/>
+<!-- guidão baixo sport -->
+<rect x="426" y="140" width="60" height="8" rx="4" fill="#222" transform="rotate(10 456 144)"/>
+<!-- escape esportivo curto -->
+<path d="M205" fill="none"/>
+<path d="M200 330 Q172 336 148 330 Q142 325 148 320" stroke="#888" stroke-width="16" fill="none" stroke-linecap="round"/>
+</svg>

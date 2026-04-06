@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a2a1a"/>
+      <stop offset="100%" style="stop-color:#1a4a2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg)"/>
+  <circle cx="148" cy="252" r="68" fill="none" stroke="#111" stroke-width="22"/>
+  <circle cx="148" cy="252" r="26" fill="#333"/>
+  <circle cx="452" cy="252" r="68" fill="none" stroke="#111" stroke-width="22"/>
+  <circle cx="452" cy="252" r="26" fill="#333"/>
+  <!-- raios finos estilo sport -->
+  <line x1="148" y1="226" x2="148" y2="278" stroke="#444" stroke-width="2.5"/>
+  <line x1="120" y1="252" x2="176" y2="252" stroke="#444" stroke-width="2.5"/>
+  <line x1="128" y1="232" x2="168" y2="272" stroke="#444" stroke-width="2.5"/>
+  <line x1="128" y1="272" x2="168" y2="232" stroke="#444" stroke-width="2.5"/>
+  <line x1="452" y1="226" x2="452" y2="278" stroke="#444" stroke-width="2.5"/>
+  <line x1="424" y1="252" x2="480" y2="252" stroke="#444" stroke-width="2.5"/>
+  <line x1="432" y1="232" x2="472" y2="272" stroke="#444" stroke-width="2.5"/>
+  <line x1="432" y1="272" x2="472" y2="232" stroke="#444" stroke-width="2.5"/>
+  <!-- chassi naked -->
+  <path d="M148 252 L215 158 L350 148 L452 188 L452 252" fill="none" stroke="#00a651" stroke-width="7" stroke-linecap="round"/>
+  <!-- motor -->
+  <rect x="228" y="195" width="130" height="68" rx="10" fill="#006633"/>
+  <rect x="238" y="205" width="110" height="48" rx="6" fill="#00a651"/>
+  <!-- tanque agressivo -->
+  <path d="M248 148 Q300 132 350 148 L355 192 Q300 200 245 192 Z" fill="#00a651"/>
+  <!-- banco naked -->
+  <path d="M248 158 Q300 148 350 158 Q352 175 300 178 Q248 175 248 158 Z" fill="#111"/>
+  <!-- garfo invertido -->
+  <path d="M215 158 L162 225" stroke="#666" stroke-width="11" stroke-linecap="round"/>
+  <path d="M225 153 L170 223" stroke="#555" stroke-width="8" stroke-linecap="round"/>
+  <!-- guidão naked alto -->
+  <rect x="200" y="132" width="70" height="9" rx="4" fill="#444" transform="rotate(-5 235 136)"/>
+  <!-- farol redondo naked -->
+  <circle cx="165" cy="210" r="20" fill="#fffde0" stroke="#999" stroke-width="2"/>
+  <!-- escapamento duplo -->
+  <path d="M355 252 Q385 258 425 255" stroke="#666" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M355 240 Q390 245 425 242" stroke="#555" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <text x="300" y="315" font-family="Arial" font-size="14" font-weight="bold" fill="rgba(255,255,255,0.35)" text-anchor="middle" letter-spacing="4">MÉDIA CILINDRADA</text>
+</svg>
