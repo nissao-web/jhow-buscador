@@ -513,6 +513,14 @@ const PORTAIS = {
   WebMotors:    { cor:'#c0392b', txt:'#fff', cls:'webmotors' },
 };
 
+// ══ CREDENCIAIS FACEBOOK (localStorage) ══
+function getFbCred() {
+  try { const c = localStorage.getItem('fb_cred'); return c ? JSON.parse(c) : null; } catch(e) { return null; }
+}
+function salvarCredFb(email, senha) {
+  localStorage.setItem('fb_cred', JSON.stringify({ email, senha }));
+}
+
 // ══ SUPABASE - DADOS REAIS ══
 const SUPABASE_URL = 'https://hqczwextifessaztyyyk.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhxY3p3ZXh0aWZlc3NhenR5eXlrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE5NjA4NzksImV4cCI6MjA4NzUzNjg3OX0.nf8O2EO7ICm7OjUB5T0xFp4aXkfkLAz76nXQd_YM5gs';
