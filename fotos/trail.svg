@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+<rect width="800" height="450" fill="#f0f4f8"/>
+<ellipse cx="400" cy="408" rx="285" ry="18" fill="rgba(0,0,0,0.08)"/>
+<!-- roda traseira maior -->
+<circle cx="195" cy="325" r="98" fill="none" stroke="#111" stroke-width="30"/>
+<circle cx="195" cy="325" r="74" fill="none" stroke="#333" stroke-width="3"/>
+<circle cx="195" cy="325" r="32" fill="#1a1a2e"/>
+<circle cx="195" cy="325" r="21" fill="#00a651"/>
+<line x1="195" y1="249" x2="195" y2="401" stroke="#444" stroke-width="3.5"/>
+<line x1="119" y1="325" x2="271" y2="325" stroke="#444" stroke-width="3.5"/>
+<line x1="141" y1="271" x2="249" y2="379" stroke="#444" stroke-width="3.5"/>
+<line x1="141" y1="379" x2="249" y2="271" stroke="#444" stroke-width="3.5"/>
+<!-- roda dianteira maior trail -->
+<circle cx="598" cy="320" r="100" fill="none" stroke="#111" stroke-width="30"/>
+<circle cx="598" cy="320" r="76" fill="none" stroke="#333" stroke-width="3"/>
+<circle cx="598" cy="320" r="32" fill="#1a1a2e"/>
+<circle cx="598" cy="320" r="21" fill="#00a651"/>
+<line x1="598" y1="242" x2="598" y2="398" stroke="#444" stroke-width="3.5"/>
+<line x1="520" y1="320" x2="676" y2="320" stroke="#444" stroke-width="3.5"/>
+<line x1="542" y1="264" x2="654" y2="376" stroke="#444" stroke-width="3.5"/>
+<line x1="542" y1="376" x2="654" y2="264" stroke="#444" stroke-width="3.5"/>
+<!-- chassi trail alto -->
+<path d="M195 325 L268 178 L450 160 L598 230 L598 320" fill="none" stroke="#065f46" stroke-width="9" stroke-linecap="round"/>
+<!-- motor trail -->
+<rect x="268" y="248" width="168" height="90" rx="12" fill="#065f46"/>
+<rect x="280" y="258" width="144" height="70" rx="8" fill="#0a7a58"/>
+<rect x="280" y="270" width="144" height="6" rx="2" fill="rgba(255,255,255,0.15)"/>
+<rect x="280" y="284" width="144" height="6" rx="2" fill="rgba(255,255,255,0.15)"/>
+<rect x="280" y="298" width="144" height="6" rx="2" fill="rgba(255,255,255,0.15)"/>
+<!-- tanque trail longo -->
+<path d="M300 162 Q398 142 500 160 L505 238 Q398 250 295 243 Z" fill="#00a651"/>
+<path d="M318 155 Q398 140 488 157 Q476 144 398 140 Q322 140 318 155 Z" fill="rgba(255,255,255,0.28)"/>
+<!-- banco trail alto -->
+<path d="M300 175 Q398 158 500 174 L496 208 Q398 220 298 208 Z" fill="#111"/>
+<!-- parabrisa trail -->
+<path d="M480 165 Q510 128 548 122 L558 145 Q528 152 492 185 Z" fill="rgba(180,220,255,0.45)" stroke="rgba(150,200,255,0.6)" stroke-width="2"/>
+<!-- garfo trail longo -->
+<path d="M268 178 L218 290" stroke="#666" stroke-width="14" stroke-linecap="round"/>
+<path d="M282 173 L232 288" stroke="#777" stroke-width="10" stroke-linecap="round"/>
+<!-- guidão trail largo -->
+<rect x="248" y="148" width="88" height="10" rx="5" fill="#333" transform="rotate(-5 292 153)"/>
+<circle cx="250" cy="152" r="9" fill="#222"/>
+<circle cx="336" cy="147" r="9" fill="#222"/>
+<!-- carenagem bico trail -->
+<path d="M228 255 Q248 228 268 215 Q252 240 238 265 Z" fill="#00a651"/>
+<!-- farol trail retangular -->
+<rect x="214" y="240" rx="5" ry="5" width="38" height="26" fill="#fff9c4" stroke="#bbb" stroke-width="2"/>
+<rect x="219" y="244" rx="3" ry="3" width="28" height="18" fill="#fffde7"/>
+<!-- malas laterais trail -->
+<rect x="148" y="248" width="55" height="65" rx="8" fill="#0a7a58" stroke="#065f46" stroke-width="2"/>
+<!-- escape trail alto -->
+<path d="M210 325 Q180 330 158 326" stroke="#888" stroke-width="13" fill="none" stroke-linecap="round"/>
+</svg>

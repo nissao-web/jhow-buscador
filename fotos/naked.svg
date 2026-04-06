@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+<rect width="800" height="450" fill="#f0f4f8"/>
+<ellipse cx="400" cy="400" rx="280" ry="18" fill="rgba(0,0,0,0.08)"/>
+<!-- roda traseira -->
+<circle cx="200" cy="335" r="92" fill="none" stroke="#111" stroke-width="28"/>
+<circle cx="200" cy="335" r="70" fill="none" stroke="#333" stroke-width="3"/>
+<circle cx="200" cy="335" r="30" fill="#1a1a2e"/>
+<circle cx="200" cy="335" r="20" fill="#e8620a"/>
+<line x1="200" y1="265" x2="200" y2="405" stroke="#444" stroke-width="3"/>
+<line x1="130" y1="335" x2="270" y2="335" stroke="#444" stroke-width="3"/>
+<line x1="150" y1="285" x2="250" y2="385" stroke="#444" stroke-width="3"/>
+<line x1="150" y1="385" x2="250" y2="285" stroke="#444" stroke-width="3"/>
+<!-- roda dianteira -->
+<circle cx="590" cy="335" r="92" fill="none" stroke="#111" stroke-width="28"/>
+<circle cx="590" cy="335" r="70" fill="none" stroke="#333" stroke-width="3"/>
+<circle cx="590" cy="335" r="30" fill="#1a1a2e"/>
+<circle cx="590" cy="335" r="20" fill="#e8620a"/>
+<line x1="590" y1="265" x2="590" y2="405" stroke="#444" stroke-width="3"/>
+<line x1="520" y1="335" x2="660" y2="335" stroke="#444" stroke-width="3"/>
+<line x1="540" y1="285" x2="640" y2="385" stroke="#444" stroke-width="3"/>
+<line x1="540" y1="385" x2="640" y2="285" stroke="#444" stroke-width="3"/>
+<!-- chassi principal naked -->
+<path d="M200 335 L270 195 L430 175 L590 240 L590 335" fill="none" stroke="#1a2a6c" stroke-width="9" stroke-linecap="round"/>
+<!-- motor -->
+<rect x="270" y="255" width="165" height="88" rx="12" fill="#1a2a6c"/>
+<rect x="282" y="265" width="141" height="68" rx="8" fill="#2a3d8f"/>
+<!-- aletas motor -->
+<rect x="282" y="278" width="141" height="6" rx="2" fill="rgba(255,255,255,0.15)"/>
+<rect x="282" y="292" width="141" height="6" rx="2" fill="rgba(255,255,255,0.15)"/>
+<rect x="282" y="306" width="141" height="6" rx="2" fill="rgba(255,255,255,0.15)"/>
+<!-- tanque naked -->
+<path d="M295 175 Q390 155 480 172 L485 235 Q390 248 290 240 Z" fill="#e8620a"/>
+<path d="M310 168 Q390 154 470 170 Q460 157 390 152 Q315 153 310 168 Z" fill="rgba(255,255,255,0.3)"/>
+<!-- banco naked alto -->
+<path d="M295 188 Q390 170 485 185 L480 220 Q390 232 295 218 Z" fill="#111"/>
+<!-- garfo invertido naked -->
+<path d="M270 195 L228 300" stroke="#666" stroke-width="13" stroke-linecap="round"/>
+<path d="M282 190 L240 300" stroke="#777" stroke-width="10" stroke-linecap="round"/>
+<!-- guidão naked alto -->
+<rect x="256" y="168" width="72" height="10" rx="5" fill="#333" transform="rotate(-8 292 173)"/>
+<circle cx="258" cy="172" r="9" fill="#222"/>
+<circle cx="328" cy="165" r="9" fill="#222"/>
+<!-- farol redondo naked -->
+<circle cx="228" cy="260" r="26" fill="#fff9c4" stroke="#bbb" stroke-width="2.5"/>
+<circle cx="228" cy="260" r="18" fill="#fffde7"/>
+<!-- escapamento duplo -->
+<path d="M205 335 Q175 342 148 338" stroke="#777" stroke-width="14" fill="none" stroke-linecap="round"/>
+<path d="M205 318 Q178 324 150 320" stroke="#666" stroke-width="11" fill="none" stroke-linecap="round"/>
+</svg>

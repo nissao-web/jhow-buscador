@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+<rect width="800" height="450" fill="#f0f4f8"/>
+<ellipse cx="400" cy="405" rx="275" ry="17" fill="rgba(0,0,0,0.08)"/>
+<!-- roda traseira -->
+<circle cx="205" cy="332" r="90" fill="none" stroke="#111" stroke-width="26"/>
+<circle cx="205" cy="332" r="68" fill="none" stroke="#333" stroke-width="3"/>
+<circle cx="205" cy="332" r="30" fill="#1a1a2e"/>
+<circle cx="205" cy="332" r="20" fill="#1a2a6c"/>
+<line x1="205" y1="264" x2="205" y2="400" stroke="#444" stroke-width="3"/>
+<line x1="137" y1="332" x2="273" y2="332" stroke="#444" stroke-width="3"/>
+<line x1="157" y1="284" x2="253" y2="380" stroke="#444" stroke-width="3"/>
+<line x1="157" y1="380" x2="253" y2="284" stroke="#444" stroke-width="3"/>
+<!-- roda dianteira -->
+<circle cx="582" cy="332" r="90" fill="none" stroke="#111" stroke-width="26"/>
+<circle cx="582" cy="332" r="68" fill="none" stroke="#333" stroke-width="3"/>
+<circle cx="582" cy="332" r="30" fill="#1a1a2e"/>
+<circle cx="582" cy="332" r="20" fill="#1a2a6c"/>
+<line x1="582" y1="264" x2="582" y2="400" stroke="#444" stroke-width="3"/>
+<line x1="514" y1="332" x2="650" y2="332" stroke="#444" stroke-width="3"/>
+<line x1="534" y1="284" x2="630" y2="380" stroke="#444" stroke-width="3"/>
+<line x1="534" y1="380" x2="630" y2="284" stroke="#444" stroke-width="3"/>
+<!-- chassi tubular CG -->
+<path d="M205 332 L272 185 L440 168 L582 245 L582 332" fill="none" stroke="#1a2a6c" stroke-width="9" stroke-linecap="round"/>
+<!-- segundo tubo CG -->
+<path d="M272 185 L360 295 L450 298 L520 270" stroke="#2a3d8f" stroke-width="6" fill="none" stroke-linecap="round"/>
+<!-- motor CG bloqueado -->
+<rect x="275" y="248" width="162" height="88" rx="10" fill="#1a2a6c"/>
+<rect x="287" y="258" width="138" height="68" rx="6" fill="#2a3d8f"/>
+<rect x="287" y="270" width="138" height="5" rx="2" fill="rgba(255,255,255,0.15)"/>
+<rect x="287" y="283" width="138" height="5" rx="2" fill="rgba(255,255,255,0.15)"/>
+<rect x="287" y="296" width="138" height="5" rx="2" fill="rgba(255,255,255,0.15)"/>
+<!-- tanque CG -->
+<path d="M300 170 Q392 150 482 168 L486 235 Q392 248 295 240 Z" fill="#1a2a6c"/>
+<path d="M316 163 Q392 148 470 165 Q458 151 392 148 Q318 148 316 163 Z" fill="rgba(255,255,255,0.25)"/>
+<!-- banco CG -->
+<path d="M300 183 Q392 165 482 182 L478 215 Q392 228 296 214 Z" fill="#222"/>
+<!-- garfo CG -->
+<path d="M272 185 L228 295" stroke="#666" stroke-width="12" stroke-linecap="round"/>
+<path d="M284 180 L240 294" stroke="#777" stroke-width="9" stroke-linecap="round"/>
+<!-- guidão CG -->
+<rect x="260" y="160" width="68" height="9" rx="4" fill="#333" transform="rotate(-6 294 164)"/>
+<circle cx="262" cy="164" r="9" fill="#222"/>
+<circle cx="328" cy="158" r="9" fill="#222"/>
+<!-- farol CG redondo -->
+<circle cx="234" cy="258" r="24" fill="#fff9c4" stroke="#bbb" stroke-width="2.5"/>
+<circle cx="234" cy="258" r="16" fill="#fffde7"/>
+<!-- escape CG -->
+<path d="M212 332 Q186 338 162 334" stroke="#888" stroke-width="12" fill="none" stroke-linecap="round"/>
+</svg>

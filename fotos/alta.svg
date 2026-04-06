@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a0a"/>
+      <stop offset="100%" style="stop-color:#3a1a1a"/>
+    </linearGradient>
+    <linearGradient id="carenagem" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8620a"/>
+      <stop offset="100%" style="stop-color:#8a2a00"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bg)"/>
+  <circle cx="145" cy="250" r="70" fill="none" stroke="#0a0a0a" stroke-width="24"/>
+  <circle cx="145" cy="250" r="24" fill="#222"/>
+  <circle cx="455" cy="250" r="70" fill="none" stroke="#0a0a0a" stroke-width="24"/>
+  <circle cx="455" cy="250" r="24" fill="#222"/>
+  <!-- raios finos esportivos -->
+  <line x1="145" y1="226" x2="145" y2="274" stroke="#333" stroke-width="2"/>
+  <line x1="121" y1="250" x2="169" y2="250" stroke="#333" stroke-width="2"/>
+  <line x1="127" y1="232" x2="163" y2="268" stroke="#333" stroke-width="2"/>
+  <line x1="127" y1="268" x2="163" y2="232" stroke="#333" stroke-width="2"/>
+  <line x1="455" y1="226" x2="455" y2="274" stroke="#333" stroke-width="2"/>
+  <line x1="431" y1="250" x2="479" y2="250" stroke="#333" stroke-width="2"/>
+  <line x1="437" y1="232" x2="473" y2="268" stroke="#333" stroke-width="2"/>
+  <line x1="437" y1="268" x2="473" y2="232" stroke="#333" stroke-width="2"/>
+  <!-- chassi esportivo -->
+  <path d="M145 250 L210 152 L355 140 L455 182 L455 250" fill="none" stroke="#e8620a" stroke-width="6" stroke-linecap="round"/>
+  <!-- carenagem full -->
+  <path d="M210 152 Q260 130 310 128 Q360 130 385 148 Q420 170 440 210 L440 250 Q400 250 350 248 Q300 246 250 248 L210 250 Q170 240 155 220 Z" fill="url(#carenagem)" opacity="0.9"/>
+  <!-- bolha -->
+  <path d="M295 128 Q325 108 355 118 Q370 135 355 148 Q330 142 295 140 Z" fill="rgba(180,220,255,0.45)" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+  <!-- farol duplo -->
+  <ellipse cx="178" cy="200" rx="16" ry="11" fill="#fffde0" stroke="#999" stroke-width="1.5"/>
+  <ellipse cx="203" cy="198" rx="14" ry="10" fill="#fffde0" stroke="#999" stroke-width="1.5"/>
+  <!-- guidão baixo sport -->
+  <rect x="340" y="128" width="55" height="7" rx="3" fill="#333" transform="rotate(8 367 131)"/>
+  <!-- escapamento esportivo -->
+  <path d="M360 248 Q395 255 430 248 Q440 245 435 238" stroke="#888" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <text x="300" y="315" font-family="Arial" font-size="14" font-weight="bold" fill="rgba(255,255,255,0.35)" text-anchor="middle" letter-spacing="4">ALTA CILINDRADA</text>
+</svg>
