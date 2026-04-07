@@ -877,9 +877,9 @@ function checkAlerta() {
   const melhor = abaixo.length ? abaixo[0] : dentro[0];
   const bar = document.getElementById('alertaBar');
   document.getElementById('alertaText').innerHTML =
-    `<strong>${dentro.length} oportunidades dentro da margem</strong>${abaixo.length ? ` · ${abaixo.length} abaixo da FIPE` : ''} — Melhor: ${melhor.modelo} ${melhor.ano} · R$ ${melhor.preco.toLocaleString('pt-BR')} · ${melhor.diff > 0 ? '+':''}${melhor.diff}% · ${melhor.cidade} · ${melhor.fonte}`;
+    `<strong>${dentro.length} oportunidades dentro da margem</strong>${abaixo.length ? ` · ${abaixo.length} abaixo da FIPE` : ''} — Melhor: ${melhor.modelo} ${melhor.ano||''} · R$ ${(melhor.preco||0).toLocaleString('pt-BR')} · ${melhor.diff > 0 ? '+':''}${melhor.diff||0}% · ${melhor.cidade} · ${melhor.fonte}`;
   bar.classList.add('show');
-  if (abaixo.length) toast(`🚨 ${melhor.modelo} ${melhor.ano} · ${melhor.diff}% abaixo da FIPE · R$ ${melhor.preco.toLocaleString('pt-BR')}`,'w');
+  if (abaixo.length) toast(`🚨 ${melhor.modelo} ${melhor.ano||''} · ${melhor.diff||0}% abaixo da FIPE · R$ ${(melhor.preco||0).toLocaleString('pt-BR')}`,'w');
 }
 
 // ═══════════════════════════════════════════════════
@@ -1012,19 +1012,19 @@ function cardHTML(a, idx) {
     <div class="card-body">
       <div class="card-modelo">${a.modelo}</div>
       <div class="card-meta">
-        <span>📅 ${a.ano}</span>
-        <span>🛣 ${a.km.toLocaleString('pt-BR')} km</span>
-        <span>🎨 ${a.cor}</span>
+        <span>📅 ${a.ano || '—'}</span>
+        <span>🛣 ${a.km ? a.km.toLocaleString('pt-BR') : '—'} km</span>
+        <span>🎨 ${a.cor || '—'}</span>
       </div>
       <div class="price-row">
         <div>
           ${preSub}
-          <div class="price-main">R$ ${a.preco.toLocaleString('pt-BR')}</div>
+          <div class="price-main">R$ ${(a.preco||0).toLocaleString('pt-BR')}</div>
         </div>
         <div class="fipe-side">
           <span class="fipe-lbl">Tabela FIPE</span>
-          <span class="fipe-val">R$ ${a.fipe.toLocaleString('pt-BR')}</span>
-          <span class="fipe-diff ${a.dentroMargem?'g':'r'}">${ds}${a.diff}%</span>
+          <span class="fipe-val">R$ ${(a.fipe||0).toLocaleString('pt-BR')}</span>
+          <span class="fipe-diff ${a.dentroMargem?'g':'r'}">${ds}${a.diff||0}%</span>
         </div>
       </div>
       <div class="barra-wrap">
