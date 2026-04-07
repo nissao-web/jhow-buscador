@@ -192,7 +192,8 @@ main { max-width:1800px; margin:0 auto; padding:0 28px 60px; }
 .cat-info { font-size:10px; color:var(--cinza-mid); font-family:'JetBrains Mono',monospace; white-space:nowrap; }
 
 /* ══ GRID 4 COLUNAS ══ */
-.grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+.grid { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; }
+@media(max-width:1800px){.grid{grid-template-columns:repeat(4,1fr)}}
 @media(max-width:1400px){.grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:1000px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:580px){.grid{grid-template-columns:1fr}}
